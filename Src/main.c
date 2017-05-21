@@ -367,7 +367,7 @@ int main(void)
 
 	  printf( " Next available block: 0x%08lX\r\n",q);
 	  printf("\r\n");
-	  next_address = (q - flash_address); //this is wrong
+	  next_address = (q - flash_address);
 	  flash_address += next_address;
 	  counter++;
 	  }
